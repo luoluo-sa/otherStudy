@@ -5,3 +5,5 @@ git add [filename]	把指定的改动过的文件添加到缓存区
 git commit -m 'log inof'	把改动提交到HEAD
 git push origin master		把改动提交到远端仓库，master为分支名		
 git log --pretty=oneline	日志显示，后面的参数表示只显示一行
+
+modify
