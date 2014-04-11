@@ -1,0 +1,5 @@
+git 常用命令：
+git clone [url]		克隆远端服务器上的仓库
+git add *			把所有改动过的代码添加到缓存区
+git add [filename]	把特定的改动过的文件添加到缓存区
+git commit -m 'log inof'	
