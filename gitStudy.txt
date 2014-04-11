@@ -1,5 +1,7 @@
 git 常用命令：
 git clone [url]		克隆远端服务器上的仓库
 git add *			把所有改动过的代码添加到缓存区
-git add [filename]	把特定的改动过的文件添加到缓存区
-git commit -m 'log inof'	
+git add [filename]	把指定的改动过的文件添加到缓存区
+git commit -m 'log inof'	把改动提交到HEAD
+git push origin master		把改动提交到远端仓库，master为分支名		
+git log --pretty=oneline	日志显示，后面的参数表示只显示一行
